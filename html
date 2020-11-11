@@ -1,0 +1,93 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title>Registration Form</title>
+</head>
+<body>
+
+	<form action=""method="get">
+		<!------Text Box--------->
+		<label>Student Name</label>
+		<input type="text" value="Ibrahim Pike"readonly id="txt_studentname" required name="txt_studentname" Placeholder="Enter Your Name">
+		</br><br/>
+		<label>father's Name</label>
+		<input type="text" id="txt_fathersname" name="txt_fathersname" Placeholder="Enter Your Father'sName">
+		</br><br/>
+		<label>Mother's Name</label>
+         	<input type="text" id="txt_mothersname" name="txt_mothersname" Placeholder="Enter Your Mother's Name">
+		</br><br/>
+		<label>Spouse Name</label>		
+		<input type="text" id="txt_Spousename" name="txt_Spousename" Placeholder="Enter Your Spouse name">
+		</br><br/>
+		<label>Email*</label>	
+		<input type="email" id="txt_emailaddress"required  name="txt_emailaddress" Placeholder="Enter Your email address">
+		</br><br/>
+		<label>Mobile Number*</label>	
+		<input type="number" id="txt_mobilenumber"required name="txt_mobilenumber" Placeholder="Enter Your Mobile Number">
+		</br><br/>
+		<label>ZIP Code</label>	
+		<input type="number" value="1362" disabled id="txt_zipcode" name="txt_zipcode" Placeholder="Enter Your zip code">
+		</br><br/>
+		<label>Date of Birth</label>	
+		<input type="date" id="txt_bdate" name="txt_bdate">
+		
+		<!------BropDown Box--------->
+		</br><br/>
+		<label>District</label>
+		<select>
+		<option value="">Select Your District</option>
+		<option value="">Narsingdi</option>
+		<option value="">Dhaka</option>
+		<option value="">Faridpur</option>
+		<option value="">Gazipur</option>
+		<option value="">Kishorgong</option>
+		</select>
+
+
+		</br><br/>
+		<label>Upazila</label>
+		<select>
+		<option value="">Select Your Upazila</option>
+		<option value="">Monohardi</option>
+		<option value="">Palash</option>
+		<option value="">Shibpur</option>
+		<option value="">Belab</option>
+		<option value="">Sadar</option>
+		</select>		
+		
+		<!------Radio Button--------->
+		</br><br/>
+		<label>Gender</label>	
+		<input type="radio" id="rdl_gender" name="rdl_gender" value="Male"><label>Male</label>	
+		<input type="radio" id="rdl_gender" name="rdl_gender" value="Female"><label>Female</label>		
+		</br><br/>
+
+		<!------Single File--------->
+		</br><br/>
+		<label>Upload Your Photo</label>	
+		<input type="file" id="file" name="file">	
+		
+		<!------Multiple File--------->
+		</br><br/>
+		<label>Upload Certificate</label>	
+		<input type="file" multiple id="file" name="file">
+
+		<!------Text Area--------->
+		</br><br/>
+		<label>Comments</label>	
+		<textarea row="20" cols="40"></textarea>
+		
+		<!------Check Box--------->
+		</br><br/>
+		<input type="checkbox" id="chk_ruls" name="chk_rules" value="Terms & Conditions"><label>I have read all Terms & Conditions</label>	
+		
+		<!------Submit Button--------->
+		</br><br/>
+	
+		<input type="submit" id="smt_button" name="smt_button" value="Submit Now">
+			
+		
+		
+	</form>
+</body>
+</html>
